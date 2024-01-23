@@ -1,0 +1,36 @@
+@import '../../styles/base.scss';
+
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid $color-neutral-cool-gray;
+    padding: 10px;
+
+    .buttonDesc {
+        margin-left: 5%;
+        margin-right: 40%;
+
+        h2 {
+            color: $color-primary-marine-blue;
+            font-size: 15px;
+            margin-bottom: 5%;
+            width: 150%;
+        }
+    
+        p {
+            color: $color-neutral-cool-gray;
+            font-size: 10px;
+            width: 150%;
+        }
+        
+    }
+
+    p {
+        color: #473dff;
+    }
+}

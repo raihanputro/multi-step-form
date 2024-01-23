@@ -1,0 +1,62 @@
+@import '../../styles/base.scss';
+
+.planSelected {
+    padding: 20px 15px;
+    border: #473dff 1px solid !important;
+    background-color: #F8F9FE;
+    border-radius: 10px;
+    width: 130px;
+    cursor: pointer;
+
+    .planDesc {
+        margin-top: 50%;
+
+        h2 {
+            color: $color-primary-marine-blue;
+            font-size: 18px;
+        }
+
+        p {
+            color: $color-neutral-cool-gray;
+            font-size: 14px;
+            padding-top: 5px;
+        }
+
+        .free {
+            color: $color-primary-marine-blue;
+            padding-top: 5px;
+        }
+    }
+}
+
+.plan {
+    padding: 20px 15px;
+    border: #d6d9e6 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 130px;
+
+    &:hover {
+        border: #473dff 1px solid !important;
+    }
+
+    .planDesc {
+        margin-top: 50%;
+
+        h2 {
+            color: $color-primary-marine-blue;
+            font-size: 18px;
+        }
+
+        p {
+            color: $color-neutral-cool-gray;
+            font-size: 14px;
+            padding-top: 5px;
+        }
+
+        .free {
+            color: $color-primary-marine-blue;
+            padding-top: 5px;
+        }
+    }
+}

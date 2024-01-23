@@ -1,0 +1,18 @@
+@import '../../styles/base.scss';
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 120%;
+    margin-bottom: 10%;
+
+    h1 {
+        color: $color-primary-marine-blue;
+    }
+
+    p {
+        color: $color-neutral-cool-gray;
+        font-size: 15px;
+    }
+}

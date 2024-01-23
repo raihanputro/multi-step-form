@@ -1,0 +1,65 @@
+@import '../../styles/base.scss';
+
+.steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 30px 40px;
+
+    @include apply-at-md-size {
+        margin: 30px 0px;
+        display: block;
+    }
+
+    .step {
+        margin-right: 15px;
+        padding: 10px 15px;
+        background-color: $color-primary-purplish-blue;
+        color: $color-neutral-white;
+        border-radius: 100%;
+        font-weight: 500;
+        border: $color-neutral-white 1px solid;
+        font-weight: 700;
+
+        @include apply-at-md-size {
+            margin-right: 5vw;
+            padding: 8px 13px;
+        }
+    }
+
+    .stepActive {
+        margin-right: 15px;
+        padding: 10px 15px;
+        background-color: $color-primary-light-blue;
+        color: #02295a;
+        border-radius: 100%;
+        font-weight: 500;
+        border: 1px solid $color-primary-light-blue;
+        font-weight: 700;
+
+        @include apply-at-md-size {
+            margin-right: 5vw;
+            padding: 8px 13px;
+        }
+    }
+
+    .stepDesc {
+
+        @include apply-at-md-size {
+            display: none;
+        }
+
+        h1 {
+            color: $color-primary-pastel-blue;
+            font-size: 14px
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 1px;
+            width: 130%;
+            color: $color-neutral-white;
+        }
+    }
+}

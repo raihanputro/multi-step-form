@@ -1,0 +1,24 @@
+@import '../../styles/base.scss';
+
+.sideMenu {
+    background: url("/src/assets/bg-sidebar-desktop.svg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 60%;
+    padding-top: 2%;
+
+    @include apply-at-md-size {
+        background: url("/src/assets/bg-sidebar-mobile.svg") no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 200px;
+        padding-top: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        border-radius: 0;
+    }
+}

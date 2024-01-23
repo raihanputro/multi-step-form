@@ -1,0 +1,21 @@
+@import '../../../../styles/base.scss';
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+    gap: 20px;
+
+    h1 {
+        color: $color-primary-marine-blue;
+    }
+
+    p {
+        text-align: center;
+        color: $color-neutral-cool-gray;
+        width: 120%;
+        line-height: 1.5em;
+    }
+}

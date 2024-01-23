@@ -1,0 +1,22 @@
+@import '../../../../styles/base.scss';
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 185%;
+    margin-bottom: 10%;
+
+    
+
+    .label {
+        color: $color-primary-marine-blue;
+        font-size: 14px;
+
+    }
+    .input {
+        border-radius: 40px;
+        &::placeholder {
+            font-weight: bolder;
+        }
+    }
+}

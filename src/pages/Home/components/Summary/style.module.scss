@@ -1,0 +1,33 @@
+@import '../../../../styles/base.scss';
+
+.sumContainer {
+    background-color: $color-primary-pastel-blue;
+    padding: 10px;
+    border-radius: 10px;
+
+    .sumTop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 15px;
+        border-bottom: 1px solid $color-neutral-cool-gray;
+    }
+
+    .sumBot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+.sumBot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
